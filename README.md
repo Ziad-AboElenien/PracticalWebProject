@@ -4,7 +4,7 @@ A complete meals browsing app built with React + Vite, using TheMealDB API to di
 
 ## 🚀 Demo
 
-**Live Demo:** [https://meal-done.vercel.app/](https://meal-done.vercel.app/)
+**Live Demo:** [https://meal-done.vercel.app/]([https://meal-done.vercel.app/](https://practical-web-project.vercel.app/))
 
 ## 🧰 Tech Stack
 
