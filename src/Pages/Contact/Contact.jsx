@@ -21,7 +21,7 @@ export default function Contact() {
                 Email: ${userEmail}
                 Message: ${userMessage}`;
 
-        const url = https://wa.me/${phoneNumber}?text=${encodeURIComponent(finalMessage)};
+        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(finalMessage)}`;
 
         window.open(url, "_blank");
     }
@@ -61,3 +61,4 @@ export default function Contact() {
         </>
     );
 }
+
