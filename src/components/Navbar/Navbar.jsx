@@ -39,7 +39,7 @@ export default function Navbar() {
                 </div>
             </div>
          {/* MAIN NAV  */}
-            <nav className={position-fixed z-3 top-0 start-0 vh-100 text-center ${open ? 'opened' : ''}}>
+            <nav className={`position-fixed z-3 top-0 start-0 vh-100 text-center ${open ? 'opened' : ''}`}>
                 <div className="d-flex flex-column justify-content-between h-100 pt-4 pb-5">
                     <NavLink to="/" className="nav-logo">
                         <img src={x} className="img-fluid w-50" alt="" />
@@ -56,5 +56,6 @@ export default function Navbar() {
             </nav>
     </>
 }
+
 
 
