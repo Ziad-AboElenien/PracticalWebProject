@@ -14,7 +14,7 @@ export default function Navbar() {
     
     return <>
         {/* SIDE_NAV */}
-            <div className={nav-side z-3 position-fixed top-0 vh-100 w-250 ${open ? 'opened' : ''}} >
+            <div className={`nav-side z-3 position-fixed top-0 vh-100 w-250 ${open ? 'opened' : ''}`} >
                 <div className="container  d-flex flex-column justify-content-between h-100 ps-4  pb-3 pe-5">
                     <div className="links overflow-hidden pe-5 pt-5">
                         <ul className="list-unstyled fs-5 link d-flex flex-column gap-4">
@@ -56,3 +56,4 @@ export default function Navbar() {
             </nav>
     </>
 }
+
